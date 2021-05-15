@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
    public String pressure;
    public String humidity;
    public String speed;
-   public String rain;
+ //  public String rain;
       String baseURL ="http://api.openweathermap.org/data/2.5/weather?q=";
       String API ="&units=metric&appid=ee88badafe062e5bcdc52042aeebae15";
     @Override
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         maxi_temp = findViewById(R.id.max_temp);
         mini_temp = findViewById(R.id.min_temp);
         result_btn= findViewById(R.id.button);
-        LocalDateTime now = LocalDateTime.now();
+       // LocalDateTime now = LocalDateTime.now();
         go_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

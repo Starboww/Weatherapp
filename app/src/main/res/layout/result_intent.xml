@@ -148,17 +148,15 @@
 
     <TextView
         android:id="@+id/city"
-        android:layout_width="207dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
-        android:layout_marginBottom="24dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_blue_dark"
 
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="19dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

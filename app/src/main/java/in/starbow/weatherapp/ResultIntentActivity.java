@@ -26,7 +26,7 @@ public class ResultIntentActivity extends AppCompatActivity {
         String pressure = getIntent().getStringExtra("pressure");
         String humidity = getIntent().getStringExtra("humidity");
         String speed = getIntent().getStringExtra("speed");
-        String rain = getIntent().getStringExtra("rain");
+       // String rain = getIntent().getStringExtra("rain");
         String city = getIntent().getStringExtra("city_name");
 
         avg_temp.setText("Avg temp.\n\n"+avg_temprature+"°C");
